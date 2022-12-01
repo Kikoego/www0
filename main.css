@@ -88,10 +88,129 @@
 .servicesH2 {
     text-align: center;
     padding: 16px 0 45px 0;
+
+    font-family: 'Playfair Display';
+    font-size: 51px;
+    line-height: 60px;
+    text-align: center;
+    color: #2F2E2E;
 }
 .services {
     height: 365px;
-
     background: rgba(37, 77, 77, 0.2);
     background-size: cover;
+}
+.serviceContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.service h2 {
+    font-family: 'Playfair Display';
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #2F2E2E;
+}
+.service {
+    text-align: center;
+}
+.service span {
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #2F2E2E;
+}
+
+
+
+.about {
+    padding: 132px 162px 0 179px;
+}
+.aboutRaw {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+
+}
+.aboutH2 {
+    font-family: 'Playfair Display';
+    font-size: 51px;
+    line-height: 60px;
+    color: #2F2E2E;
+    padding-bottom: 33px;
+    padding-top: 20px;
+}
+.aboutText {
+    font-family: 'Playfair Display';
+    font-size: 31px;
+    line-height: 36px;
+    color: #2F2E2E;
+
+    width: 456px;
+    height: 241px;
+}
+.aboutHref {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2F2E2E;
+    text-decoration: none;
+}
+
+
+
+.testimonial {
+    margin: 101px 188px 0 100px;
+}
+.testimonialH2 {
+    font-family: 'Playfair Display';
+    font-size: 51px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 91px;
+}
+.testimonialRaw {
+    display: flex;
+    justify-content: space-between;
+}
+.testimonialContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.testimonialName {
+    font-family: 'Playfair Display';
+    font-size: 28px;
+    line-height: 33px;
+    color: #2F2E2E;
+    margin-top: 20px;
+    padding-bottom: 16px;
+}
+.testimonialAbout {
+    width: 307px;
+    height: 69px;
+    font-family: 'Playfair Display';
+    font-size: 17px;
+    line-height: 20px;
+    color: #2F2E2E;
+}
+
+.footer {
+    height: 97px;
+    background: #2E2F32;
+    margin-top: 80px;
+}
+.footerLinks {
+    padding: 37px 0 30px 100px;
+}
+.footerLinksRaw {
+    display: flex;
+    gap: 36px;
 }
